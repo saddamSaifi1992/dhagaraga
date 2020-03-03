@@ -1,0 +1,10 @@
+@mixin scroll_box($color,$bgcolor,$height) {
+    width: 100%;
+	height: $height;
+	background:$bgcolor;
+	color:$color;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	align-items:center;
+}
